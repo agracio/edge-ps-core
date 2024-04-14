@@ -1,0 +1,28 @@
+{
+	"name": "edge-ps-core",
+
+	"version": "1.0.1",
+	"description": "edge-ps-core: run PowerShell and node.js code in Edge.Js with edge-ps-core",
+	"tags": [
+		"powershell",
+		"owin",
+		"edge",
+		"clr",
+		"c#",
+		"managed",
+		".net",
+		"dotnet8"
+	],
+	"main": "./lib/edge-ps-core.js",
+	"engines": {
+		"node": ">= 0.6"
+	},
+	"homepage": "https://github.com/agracio/edge-ps-core",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:agracio/edge-ps-core.git"
+	},
+	"bugs": {
+		"url": "http://github.com/agracio/edge-ps-core/issues"
+	}
+}
