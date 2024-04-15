@@ -9,10 +9,10 @@ For full overview, examples and documentation visit https://github.com/dfinke/ed
 * `edge-ps` only supports .NET Framework 4.x, `edge-ps-core` supports dotnet 8
 
 ### Requirements
-* dotnet version 8
+* dotnet version 8 or higher
 * `edge-js` version 21.7.4 or higher
 * cannot be scripted directly from .js, requires a dotnet project with reference to `Microsoft.PowerShell.SDK`.  
-For usage refer to https://github.com/agracio/edge-js-quick-start.
+Sample code is provided at https://github.com/agracio/edge-js-quick-start.
 
 ### Usage
 
