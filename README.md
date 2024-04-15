@@ -32,6 +32,7 @@ npm install edge-ps-core
         if (error) throw error;
         console.log(result[0]);
     });
-```
+```  
+  
 Visit https://github.com/dfinke/edge-ps for more examples
 

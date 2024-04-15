@@ -1,7 +1,7 @@
 {
 	"name": "edge-ps-core",
 
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "edge-ps-core: run PowerShell and node.js code in Edge.Js with edge-ps-core",
 	"tags": [
 		"powershell",
