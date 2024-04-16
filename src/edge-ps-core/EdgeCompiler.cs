@@ -21,7 +21,13 @@ public class EdgeCompiler
                 powershell.AddParameter("inputFromJS", input);
                 powershell.AddParameter("parameters", parameters);
 
-                return powershell.Invoke().Select(psobject => psobject.BaseObject).ToList();
+                var result = powershell.Invoke().Select(psobject => psobject.BaseObject).ToList();
+                if (powershell.HadErrors)
+                {
+                    throw new InvalidOperationException(powershell.Streams.Error.ElementAt(0).Exception.Message); 
+                }
+
+                return result;
             });
 
             task.Start();
