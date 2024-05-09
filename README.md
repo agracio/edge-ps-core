@@ -1,5 +1,9 @@
 ## edge-ps-core
 
+# This package is now deprecated in favor of `edge-ps`
+## NPM: https://www.npmjs.com/package/edge-ps
+## GitHub: https://github.com/agracio/edge-ps 
+
 ### This is a PowerShell compiler for Edge.Js using dotnet 8.0.
 
 Forked from https://github.com/dfinke/edge-ps to support dotnet core projects.  
